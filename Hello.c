@@ -1,37 +1,6 @@
 #include<stdio.h>
-
 int main()
 {
-    printf("Jay Ganesh...\n");
-
-    return 0;
+     printf("Har Har Mahadev\n");
+     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

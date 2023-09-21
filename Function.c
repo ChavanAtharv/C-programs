@@ -1,27 +1,21 @@
-    #include<stdio.h>
+#include<stdio.h>
+
+int MUltiplication(int No1,int No2)
+{
+     int Ans=0;
+     Ans = No1 *No2;
+     return Ans;
+
+}
+ 
+ int main()
+{
+    int A = 10' B = 11;
+    int Ret = 0;
 
 
-    int Addition(int iValue1, int iValue2)
-    {
-            int iOutput = 0;
-
-            iOutput = iValue1 + iValue2;
-
-            return iOutput;
-    }
-
-
-    int main()
-    {
-            int iNo1 = 10;
-
-            int iNo2 = 11;
-
-            int iAns = 0;
-
-            iAns = Addition(iNo1,iNo2);
-            //iAns = Addition(10,11);
-            printf("Addition is : %d\n",iAns);
-
-            return 0;
-    }
+      printf("Inside main function\n");
+      Ret = Multiplication (A,B);
+      printf();
+      return 0;
+}

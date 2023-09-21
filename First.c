@@ -1,22 +1,19 @@
-#include<stdio.h>       // Header file inclusion
+  #include<stdio.h>
 
-int main()                  // Entry point function
-{                               // Block start
+  int A = 10;  // global variable
 
-    printf("Marvellous Infosystems\n");     // Display the data on screen
-
-    return 0;               // Return success
-
-}                               // Block end
-
-
-// Step1 : Compile the code
-// gcc First.c -o Myexe
-// gcc  -> GNU C Compiler
-// First.c  -> File name
-// -o   -> Output flag
-// Myexe    -> Name of executable
-
-// Step2 : Execute the code
-// Myexe        -> On windows
-// ./Myexe      -> On linux / Macos
+  extern int B;
+  extern int C;
+  
+  
+  int main()
+  {
+      printf("Value of A is : %d\n",A);
+      printf("Value of B from other file is : %d\n",B);
+      printf("Value of C from other file is : %d\n",C);
+   
+      return 0;
+  }
+  
+  
+  // Second.c is reference to this file
